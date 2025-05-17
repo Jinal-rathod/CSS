@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quote-box {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: normal;
+    outline: auto;
+    outline-offset: 10px;
+}

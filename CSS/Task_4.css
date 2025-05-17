@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.magic-btn {
+    font-weight: bold;
+}
+
+.magic-btn:hover {
+    text-decoration: underline;
+    letter-spacing: 3px;
+    border-color: red;
+}

@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Basic Background Property */
+
+.bg {
+    height: 800px;
+    width: 1000px;
+    background-color: slateblue;
+    background-image: url(../Asset/images/istockphoto.jpg);
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    /* intermediate task  */
+    background-size: cover;
+
+}
+
+/* advanced challenges */
+
+.bg:hover {
+    height: 800px;
+    width: 1000px;
+    background-color: purple;
+    background-image: url(../Asset/images/istockphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Bonus experiment tasks */
+    opacity: 0.5;
+}

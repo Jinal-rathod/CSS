@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info-card {
+    border-radius: 10px;
+    border: 2px dashed blue;
+    outline: 2px solid orange;
+    outline-offset: 5px;
+    text-align: justify;
+    font-weight: 600;
+    font-variant:small-caps;
+}
