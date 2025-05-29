@@ -1,0 +1,51 @@
+/* sandbox responsive breakpoint */
+
+/*
+
+xs  >=480px
+sm  >=576px
+md  >=768px
+lg  >=991px
+xl  >=1199px
+2xl >=1499px
+
+*/
+
+@media (max-width:1499px) {
+    .mobile-btn {
+        display: none;
+    }
+}
+
+@media (max-width:1199px) {
+    .nav-item-links li {
+        padding: 15px;
+    }
+}
+
+@media (max-width:991px) {
+    .mobile-btn {
+        display: block;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .content-text p {
+        margin-inline: 20px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .content {
+        margin: 0px;
+    }
+
+}
+
+@media (max-width:576px) {}
+
+@media (max-width:480px) {}
