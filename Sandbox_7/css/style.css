@@ -25,7 +25,7 @@ ul {
 }
 
 .container {
-    max-width: calc(1300px);
+    max-width: 1350px;
     margin: auto;
     padding: 15px;
 }
@@ -57,9 +57,9 @@ p {
 }
 
 h1 {
-    margin: 20px;
+    margin-bottom: 20px;
     color: #343F52;
-    font-size: 50px;
+    font-size: 43px;
     line-height: 57.5px;
 }
 
@@ -104,9 +104,12 @@ h6 {
 
 .navbar {
     background-color: #FFF;
-    padding: 8px 30px;
-    border-radius: 12px;
-    margin-top: 25px;
+    padding: 5px 30px;
+    border-radius: 8px;
+    margin: 30px 10px 10px 10px;
+    /* position: sticky;
+    top: 0;
+    z-index: 999; */
 }
 
 .nav-item-links {
@@ -154,10 +157,10 @@ h6 {
 }
 
 .hero-text p {
-    margin: 20px;
-    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 24px;
     font-weight: 500;
-    margin-inline: 100px;
+    padding: 0px 80px;
 }
 
 .hero-btn {
@@ -202,9 +205,13 @@ h6 {
     background-size: cover;
 }
 
+.service-card {
+    max-width: 650px;
+}
+
 .service-card-1 {
     margin-top: 30px;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .service-card img {
@@ -220,7 +227,7 @@ h6 {
 
 .service-text {
     background-color: #FFF;
-    max-width: 280px;
+    max-width: 100%;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -245,12 +252,13 @@ h6 {
 }
 
 .service-card-2 {
-    padding: 0px 20px;
+    padding: 0px 15px;
     margin-top: 80px;
 }
 
 .service-content {
-    margin-left: 140px;
+    margin: 50px 0px 0px 80px;
+    padding: 10px;
     line-height: 30px;
     width: 500px;
     line-height: 33px;
@@ -319,6 +327,10 @@ h6 {
     width: 70px;
     border-radius: 100%;
     font-size: 1.3em;
+}
+
+.community-card .box-text {
+    padding-left: 30px;
 }
 
 /* Project Section Start */
