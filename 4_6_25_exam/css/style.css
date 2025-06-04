@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* common css  */
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, rgba(242, 243, 251, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* main css */
+
+.container {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #333;
+    padding: 10px 0px;
+}
+
+h5 {
+    font-size: 18px;
+    color: rgb(50, 50, 50);
+    margin: 0px 0px 10px 15px;
+}
+
+/* User Team Card */
+
+.cards {
+    display: flex;
+}
+
+.card {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 30px;
+    margin: 25px;
+}
+
+.text p:nth-child(2) {
+    font-size: 18px;
+    color: #525151;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.text p:nth-child(3) {
+    color: #444;
+    line-height: 1.5;
+}
+
+.image-1 {
+    margin-bottom: 10px;
+    background-image: url(../asset/images/img-1.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+}
+
+.image-2 {
+    margin-bottom: 10px;
+    background-image: url(../asset/images/img-2.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+}
+
+.image-3 {
+    margin-bottom: 10px;
+    background-image: url(../asset/images/img-3.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-position: 60%;
+}
+
+.image-4 {
+    margin-bottom: 10px;
+    background-image: url(../asset/images/img-4.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-position: 30%;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icons li {
+    transform: translateY(0px);
+    transition: 0.3s transform;
+    padding: 10px;
+}
+
+.social-icons li:hover {
+    transform: translateY(-5px);
+    transition: 0.3s transform;
+}
+
+/* Testimonial Section */
+.testimonial-main {
+    margin-top: 100px;
+}
+
+.star-group {
+    font-size: 10px;
+    margin-bottom: 15px;
+    color: #fab758;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial-cards p {
+    max-width: 350px;
+    color: #60697B;
+    font-size: 18px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+.card-info {
+    display: flex;
+    padding-left: 15px;
+}
+
+.card-info .card-name {
+    padding-left: 10px;
+}
+
+.card-info img {
+    border-radius: 100%;
+}
+
+.testimonial-card {
+    height: 380px;
+    background-color: #FFF;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 30px;
+    margin: 25px;
+}
