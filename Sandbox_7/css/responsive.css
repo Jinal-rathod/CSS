@@ -21,7 +21,11 @@ xl  >=1199px
 
 @media (max-width:1199px) {
     .container {
-        margin: 20px;
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 34px;
     }
 
     .nav-item-links li {
@@ -43,6 +47,58 @@ xl  >=1199px
         padding-left: 0px;
         padding-top: 10px;
     }
+
+    .control-text {
+        max-width: 1000px;
+    }
+
+    .control-main img {
+        width: 500px;
+    }
+
+    .aboutus-text {
+        max-width: 430px;
+        padding: 20px;
+    }
+
+    .letter-bg {
+        margin: 25px;
+    }
+
+    .letter-main {
+        margin: 30px;
+    }
+
+    .letter-text p {
+        max-width: 400px;
+    }
+
+    .footer-main {
+        padding: 15px;
+    }
+
+    .joinus p {
+        max-width: 310px;
+    }
+
+    .footer-main {
+        padding: 10px;
+        margin: 100px 0px 80px  0px;
+        align-items: flex-start;
+    }
+
+
+    .need-help {
+        padding: 0px 20px;
+    }
+
+    .learn-more {
+        padding: 0px 20px;
+    }
+
+    .contectus {
+        padding: 0px 20px;
+    }
 }
 
 @media (max-width:991px) {
@@ -51,8 +107,16 @@ xl  >=1199px
         font-size: 40px;
     }
 
+    h2 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
     .navbar {
-        margin: 0px;
+        margin-top: 30px;
         padding-top: 10px;
     }
 
@@ -62,7 +126,8 @@ xl  >=1199px
 
     .mobile-btn {
         display: flex;
-        margin-left: -360px;
+        margin-left: -320px;
+        padding-bottom: 5px;
     }
 
     .hero-text p {
@@ -71,7 +136,6 @@ xl  >=1199px
     }
 
     .service-main {
-        display: flex;
         flex-wrap: wrap;
     }
 
@@ -88,17 +152,113 @@ xl  >=1199px
         padding: 20px;
         width: 100%;
     }
-}
 
-@media (max-width:768px) {}
-
-@media (max-width:576px) {
-    .container {
-        margin: 0px;
+    .community-main {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
     }
 
+    .community-text {
+        order: 2;
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .community-card {
+        display: block;
+        order: 1;
+    }
+
+    .project-main {
+        margin: 30px 0px;
+    }
+
+    .control-main {
+        flex-wrap: wrap;
+    }
+
+    .control-text {
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .control-main img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-main {
+        flex-wrap: wrap;
+    }
+
+    .aboutus-text {
+        margin-top: 20px;
+        order: 2;
+        max-width: 100%;
+    }
+
+    .aboutus-img {
+        order: 1;
+    }
+
+    .letter-main {
+        flex-wrap: wrap;
+        padding: 45px;
+    }
+
+    .letter-text p {
+        max-width: 100%;
+    }
+
+    .input-email {
+        width: 500px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+    .container {
+        padding: 0px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .aboutus-text {
+        margin-right: 0px;
+    }
+
+    .letter-main {
+        padding: 25px 10px;
+    }
+
+    .letter-text p {
+        max-width: 100%;
+    }
+}
+
+@media (max-width:576px) {
     h1 {
         font-size: 33px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 28px;
     }
 
     .nav-icon-links {
@@ -125,6 +285,27 @@ xl  >=1199px
     .service-card {
         flex-wrap: wrap;
     }
+
+    .project-img :nth-child(2) {
+        display: none;
+    }
+
+    .input-email {
+        width: 220px;
+    }
 }
 
-@media (max-width:480px) {}
+@media (max-width:480px) {
+
+    h3 {
+        font-size: 28px;
+    }
+
+    .letter-main {
+        padding: 25px 0px;
+    }
+
+    .input-email {
+        width: 230px;
+    }
+}

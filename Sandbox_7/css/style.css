@@ -11,7 +11,7 @@
 body {
     line-height: 1.7;
     color: #60697B;
-    background-color: #FEFEFE;
+    background-size: cover;
     font-family: var(--default-font-family, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
 }
 
@@ -25,7 +25,7 @@ ul {
 }
 
 .container {
-    max-width: 1350px;
+    max-width: 90%;
     margin: auto;
     padding: 15px;
 }
@@ -59,7 +59,7 @@ p {
 h1 {
     margin-bottom: 20px;
     color: #343F52;
-    font-size: 43px;
+    font-size: 50px;
     line-height: 57.5px;
 }
 
@@ -88,25 +88,16 @@ h5 {
     padding-left: 15px;
 }
 
-h6 {
-    margin-top: 20px;
-    font-size: 22px;
-    line-height: 33px;
-    color: #60697B;
-}
-
 /* Header Start */
-
 .header-bg {
-    background-color: #f2f3fb;
-    background-size: cover;
+    background: linear-gradient(180deg, rgba(242, 243, 251, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 .navbar {
     background-color: #FFF;
     padding: 5px 30px;
     border-radius: 8px;
-    margin: 30px 10px 10px 10px;
+    margin: 30px 0px 0px 0px;
     /* position: sticky;
     top: 0;
     z-index: 999; */
@@ -123,6 +114,7 @@ h6 {
 .nav-item-links li a {
     color: #343F52;
     font-weight: bold;
+    font-size: 17px;
 }
 
 .nav-item-links li a:hover {
@@ -145,15 +137,19 @@ h6 {
     transition: 0.3s transform;
 }
 
+.mobile-btn {
+    display: none;
+}
+
 /* Hero Section Start */
 
 .hero-main {
-    margin: auto;
-    max-width: 930px;
+    margin: 40px auto 0px;
+    max-width: 970px;
 }
 
 .hero {
-    margin: 60px;
+    margin: 40px;
 }
 
 .hero-text p {
@@ -169,7 +165,7 @@ h6 {
 }
 
 .hero-btn a {
-    padding: 18px 30px;
+    padding: 16px 33px;
     margin: 5px;
     display: inline-block;
     border-radius: 30px;
@@ -199,12 +195,6 @@ h6 {
 }
 
 /* Service Section Start */
-
-.service-bg {
-    background-color: #f2f3fbc7;
-    background-size: cover;
-}
-
 .service-card {
     max-width: 650px;
 }
@@ -257,14 +247,19 @@ h6 {
 }
 
 .service-content {
-    margin: 50px 0px 0px 80px;
+    margin: 90px 0px 0px 0px;
     padding: 10px;
     line-height: 30px;
-    width: 500px;
+    max-width: 500px;
     line-height: 33px;
 }
 
-.service-content p {
+.service-content :nth-child(2) {
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.service-content :nth-child(3) {
     padding: 15px 0px;
 }
 
@@ -288,12 +283,6 @@ h6 {
 }
 
 /* Community Section Start */
-
-.community-bg {
-    background-color: #f2f3fb97;
-    background-size: cover;
-}
-
 .community-main {
     margin-top: 100px;
 }
@@ -304,8 +293,13 @@ h6 {
     line-height: 28.9px;
 }
 
-.community-text p {
+.community-text :nth-child(2) {
     padding: 15px 0px;
+    font-size: 22px;
+}
+
+.community-text :nth-child(3) {
+    padding: 15px 10px 15px 0px;
 }
 
 .community-card {
@@ -316,7 +310,7 @@ h6 {
 
 .community-card .box {
     margin: 20px;
-    padding: 30px 40px;
+    padding: 30px;
     background-color: white;
     display: flex;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -335,11 +329,6 @@ h6 {
 
 /* Project Section Start */
 
-.project-bg {
-    background-color: #f2f3fb4f;
-    background-size: cover;
-}
-
 .project-main {
     margin: 100px 0px;
     display: inline-block;
@@ -348,7 +337,7 @@ h6 {
 }
 
 .project-img {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .project-img img {
@@ -366,14 +355,19 @@ h6 {
 }
 
 /* Control Section Start */
-
-.control-text {
-    max-width: 470px;
+.control-content {
     font-weight: 500;
-    line-height: 30px;
+    line-height: 32px;
+    margin-left: 80px;
+    max-width: 470px;
 }
 
-.control-text p {
+.control-text :nth-child(2) {
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.control-text :nth-child(3) {
     padding: 15px 0px;
 }
 
@@ -387,9 +381,45 @@ h6 {
 }
 
 /* AboutUs Section Start */
-
 .aboutus-main {
     margin: 100px 0px 100px 0px;
+}
+
+.aboutus-text {
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.aboutus-text :nth-child(2) {
+    padding: 15px 0px;
+    font-size: 22px;
+}
+
+.collapseOne {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #747dd1;
+}
+
+.card-body p {
+    color: #60697B;
+    margin-bottom: 20px;
+    padding: 40px 60px 25px;
+}
+
+.collapseTwo {
+    margin: 10px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #343f52;
+}
+
+.collapseThree {
+    margin: 10px 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #343F52;
 }
 
 /* Testimonial Section Start */
@@ -403,7 +433,7 @@ h6 {
 .testimonial-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .testimonial-card p {
@@ -429,11 +459,11 @@ h6 {
 
 .card {
     background-color: #FFF;
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     line-height: 30px;
-    margin: 25px;
+    margin: 20px;
 }
 
 /* Newsletter Section Start */
@@ -446,56 +476,64 @@ h6 {
 }
 
 .letter-main {
-    margin: 50px
+    margin: 40px;
 }
 
 .letter-text p {
     margin-top: 10px;
     color: #FFF;
     font-size: 19px;
-    max-width: 550px;
+    max-width: 570px;
 }
 
 .letter-input {
     display: flex;
     align-items: center;
-    justify-content: right;
+    margin-top: 20px;
 }
 
 .input-email {
     height: 50px;
-    width: 370px;
+    width: 250px;
     border-radius: 8px 0px 0px 8px;
     opacity: 0.1;
 }
 
-.input-label {
-    position: absolute;
-    color: #FFF;
-}
-
-.submit-btn {
+.input-btn {
     height: 49px;
     width: 90px;
     border-radius: 0px 8px 8px 0px;
     background-color: #747dd1;
     border: none;
-    margin-left: 150px;
     font-size: 17px;
     color: #FFF;
 }
 
 /* Footer Section Start */
+.footer-bg {
+    background: linear-gradient(1deg, rgba(244, 245, 252, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
 
 .footer-main {
     margin: 100px 0px;
     align-items: flex-start;
 }
 
+.footer-left {
+    display: flex;
+    align-items: top;
+}
+
+.need-help,
+.learn-more,
+.contectus {
+    padding: 0px 50px;
+}
+
 .joinus p {
     color: #60697B;
     line-height: 29px;
-    font-size: 17.5px;
+    font-size: 19px;
     max-width: 360px;
     margin-top: 20px;
 }
